@@ -1,0 +1,41 @@
+.main-section{
+    flex: 1 1 0%;
+    padding: 1.5rem;
+    
+}
+
+.main-section-banner{
+    height: 11rem;
+    background-image: url("https://i.ibb.co/JnmTD12/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-section-banner-button{
+    background-color: white;
+    width: 9rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 9999px;
+    font-weight: 700;
+
+}
+.main-section-categories{
+    margin-top: 2.5rem;
+
+}
+.main-section-categories h1{
+    font-weight: 700;
+    color: rgba(55, 65, 81,1);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+}
