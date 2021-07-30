@@ -1,11 +1,12 @@
 .main-section{
     flex: 1 1 0%;
     padding: 1.5rem;
+    background-color: rgba(243, 244, 246,1); 
     
 }
 
 .main-section-banner{
-    height: 11rem;
+    height: 9rem;
     background-image: url("https://i.ibb.co/JnmTD12/banner.jpg");
     background-position: center;
     background-size: cover;
@@ -28,14 +29,35 @@
 
 }
 .main-section-categories{
-    margin-top: 2.5rem;
-
+    margin-top: 1.5rem;
 }
-.main-section-categories h1{
+.main-section-categories h1, .main-section-deals h1{
     font-weight: 700;
     color: rgba(55, 65, 81,1);
     font-size: 1.5rem;
     line-height: 2rem;
     display: flex;
     align-items: center;
+}
+.main-section-deals{
+    margin-top: 1.5rem;
+}
+.main-section-category{
+
+    margin-top: 0.5rem;
+    display: flex;
+
+}
+.main-section-computer-icon, .main-section-gift-icon,
+ .main-section-phone-icon, .main-section-book-icon,
+ .main-section-camera-icon, .main-section-home-icon,
+ .main-section-music-icon, .main-section-light-icon{
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5rem;
 }
