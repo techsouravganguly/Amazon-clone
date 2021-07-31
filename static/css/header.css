@@ -46,6 +46,13 @@
     padding-left: 0.75rem;
     padding-right: 0.75rem;
 }
+.header-categories i{
+    height: 1rem;
+    width: 1rem;
+    margin-left: 0.5rem;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
 .header-search-icon{
     height: 2.25rem;
     width: 2.5rem;
@@ -55,6 +62,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.header-search-icon i{
+    font-size: 1.5rem;
 }
 
 .header-right-icon{
@@ -66,6 +76,10 @@
     width: 12rem;
     height: 4rem;
     justify-content: space-around;
+}
+
+.header-right-icon i{
+    font-size: 1.3rem;
 }
 .header-cart-icon{
     height: 2.5rem;
