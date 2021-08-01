@@ -1,3 +1,7 @@
+.main-product{
+    margin-right: 1.25rem;
+}
+
 .product-image{
     width: 9rem;
     height: 10rem;
@@ -29,4 +33,21 @@
     color: rgba(55, 65, 81, 1);;
     font-size: 1.125rem;
     line-height: 1.75rem;
+}
+
+.add-to-cart{
+    height: 2rem;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 9px;
+    background-color:  rgba(245, 158, 11,1);
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.add-to-cart:hover{
+    background-color: rgba(217, 119, 6,1);
 }

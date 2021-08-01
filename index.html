@@ -17,6 +17,15 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="static/js/firebase.js"></script>
+    <script src="static/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.0/dist/jdenticon.min.js" async
         integrity="sha384-VngWWnG9GS4jDgsGEUNaoRQtfBGiIKZTiXwm9KpgAeaRn6Y/1tAFiyXqSzqC8Ga/"
         crossorigin="anonymous">
@@ -39,9 +48,14 @@
             </div>
             <div class="header-right-icon">
                 <i class="far fa-heart"></i>
-                <div class="header-cart-icon">
-                    <i class="fas fa-shopping-cart"></i>
-                </div>
+                <a href="card.html">
+                    <div class="header-cart-icon">
+                        <div class="cart-item-number">1
+
+                        </div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </a>
                 <i class="far fa-bell"></i>
                 <svg width="3rem" height="3rem" data-jdenticon-value="user127"></svg>
 
@@ -145,24 +159,6 @@
                         <i class="fas fa-fire"></i>
                     </h1>
                     <div class="main-section-products">
-                        <div class="main-product">
-                            <div class="product-image">
-                                <img src="https://www.bhphotovideo.com/images/images2000x2000/sony_srsxb12_l_srs_xb12_extra_bass_portable_1475299.jpg" alt="">
-
-                            </div>
-                            <div class="product-name">
-                                Nintendo Switch(2019)
-                            </div>
-                            <div class="product-make">
-                                Nintendo
-                            </div>
-                            <div class="product-rating">
-                                ⭐⭐⭐⭐⭐ 4.5
-                            </div>
-                            <div class="product-price">
-                                $290.00
-                            </div>
-                        </div>
                     </div>
                 </div>
 
