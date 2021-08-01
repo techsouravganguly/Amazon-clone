@@ -28,9 +28,7 @@
     font-weight: 700;
 
 }
-.main-section-categories{
-    margin-top: 1.5rem;
-}
+
 .main-section-categories h1, .main-section-deals h1{
     font-weight: 700;
     color: rgba(55, 65, 81,1);
@@ -50,8 +48,8 @@
 }
 .main-section-category{
 
-    margin-top: 0.5rem;
     display: flex;
+    flex-wrap: wrap;
 
 }
 .main-section-computer-icon, .main-section-gift-icon,
@@ -65,7 +63,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 
